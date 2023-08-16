@@ -120,7 +120,7 @@ class FilamentNestedResourcesServiceProvider extends PackageServiceProvider
     }
 
     /**
-     * @return array<string, Icon>
+     * @return array<string, FilamentIcon>
      */
     protected function getIcons(): array
     {
