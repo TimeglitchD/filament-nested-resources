@@ -1,6 +1,6 @@
 {
     "name": "timeglitchd/filament-nested-resources",
-    "description": "This is my package filament-nested-resources",
+    "description": "Add support for nested resources to filament/filament.",
     "keywords": [
         "TimeglitchD",
         "laravel",
