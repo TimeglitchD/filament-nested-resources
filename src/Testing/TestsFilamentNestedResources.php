@@ -1,13 +1,13 @@
 <?php
 
-namespace VendorName\Skeleton\Testing;
+namespace TimeglitchD\FilamentNestedResources\Testing;
 
 use Livewire\Features\SupportTesting\Testable;
 
 /**
  * @mixin Testable
  */
-class TestsSkeleton
+class TestsFilamentNestedResources
 {
     //
 }
