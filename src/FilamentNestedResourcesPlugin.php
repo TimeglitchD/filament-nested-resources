@@ -4,7 +4,6 @@ namespace TimeglitchD\FilamentNestedResources;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
-use TimeglitchD\FilamentNestedResources\FilamentNestedResources;
 
 class FilamentNestedResourcesPlugin implements Plugin
 {
@@ -16,10 +15,10 @@ class FilamentNestedResourcesPlugin implements Plugin
     public function register(Panel $panel): void
     {
         $panel
-        ->resources([
-        ])
-        ->pages([
-        ]);
+            ->resources([
+            ])
+            ->pages([
+            ]);
     }
 
     public function boot(Panel $panel): void
