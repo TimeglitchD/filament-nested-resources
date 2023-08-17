@@ -4,4 +4,5 @@ namespace TimeglitchD\FilamentNestedResources;
 
 class FilamentNestedResources
 {
+
 }

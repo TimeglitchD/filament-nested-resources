@@ -2,9 +2,9 @@
     "private": true,
     "scripts": {
         "dev:styles": "npx tailwindcss -i resources/css/index.css -o resources/dist/filament-nested-resources.css --postcss --watch",
-        "dev:scripts": "node bin/build.js --dev",
+        "dev:scripts": "node bin/build.mjs --dev",
         "build:styles": "npx tailwindcss -i resources/css/index.css -o resources/dist/filament-nested-resources.css --postcss --minify && npm run purge",
-        "build:scripts": "node bin/build.js",
+        "build:scripts": "node bin/build.mjs",
         "purge": "filament-purge -i resources/dist/filament-nested-resources.css -o resources/dist/filament-nested-resources.css -v 3.x",
         "dev": "npm-run-all --parallel dev:*",
         "build": "npm-run-all build:*"
